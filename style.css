@@ -1,0 +1,191 @@
+.elem{
+    display: inline;
+    position: relative;
+    top: 35vh;
+    left: -5vw;
+    width: 5vw;
+    height: 10vh;
+    margin-left:20vw ;
+    
+
+}
+
+.elem img{
+    transition: transform 3s;
+    transform: scale(1);
+}
+
+.elem img:hover{
+    transform: scale(2);
+}
+
+
+h1{
+    position: absolute;
+    text-align: center;
+    top: 5vh;
+    left: 28vw;
+    font-size: 10vh;
+    color: red;
+}
+#scorePlayer{
+    position: absolute;
+    top: 7vh;
+    left: 9vw;
+    font-size: 10vh;
+    color: rgb(65, 192, 40);
+    
+}
+#player {
+    font-family: 'Anton', sans-serif;
+    font-size: 5vh;
+    color: rgb(248, 122, 122)  ;
+    position: absolute;
+    top: 5vh;
+    left: 4vw;
+    width: 13vw;
+    height: 20vh;
+    border: solid 1px;
+    border-color: red;
+    padding-left: 10px;
+    
+}
+#Computer {
+    font-family: 'Anton', sans-serif;
+    font-size: 5vh;
+    color: rgb(248, 122, 122)  ;
+    position: absolute;
+    top: 10vh;
+    left: 78vw;
+    width: 17vw;
+    height: 20vh;
+    border: solid 1px;
+    border-color: red;
+    padding-left: 1vw;
+    
+}
+#scoreComputer{
+    position: absolute;
+    top: 0vh;
+    left: 8vw;
+    font-size: 8vh;
+    color: rgb(65, 192, 40);
+    
+}
+#btn{
+    position: absolute;
+    top: 70vh;
+    left: 44vw;
+    width: 10vw;
+    height: 10vh;
+    border: 0px;
+    background-color: red;
+    font-size: 3vh;
+}
+#btn:active{
+    transform: scale(1.2);
+    animation: none;
+}
+
+
+
+
+
+
+
+/*
+#draw{
+    position: absolute;
+    top: 14vh;
+    left: 25vh;
+    background-color: white;
+    z-index: 5;
+    width: 75vw;
+    height: 75vh;
+    visibility: hidden;
+  
+}
+#fight{
+    background-color: white;
+    position: absolute;
+    top: 21vh;
+    left: 11vw;
+    width: 15vw;
+    height: 30vh;
+}
+.computer{
+    position: absolute;
+    top: 21vh;
+    left: 50vw;
+    width: 15vw;
+    height: 30vh;
+    z-index: 5;
+    
+    
+    
+}
+.computer img{
+    position: absolute;
+    top: 5vh;
+    transform: scale(1.2);
+    background-image: 
+}
+
+#draw h2{
+    font-family: 'Anton', sans-serif;
+    color: red;
+    font-size: 10vh;
+    position: absolute;
+    top: 21vh;
+    left: 35vw;
+    
+}
+#winner{
+    font-family: 'Anton', sans-serif;
+    position: absolute;
+    top: -7vh;
+    left: 10vw;
+    color: red;
+    font-size: 12vh;
+    visibility: hidden;
+    animation-name:winner ;
+    animation: winner 3s infinite;
+    animation-delay:4s;
+}
+@keyframes winner{
+    0%{
+        visibility: hidden;
+    }
+    100%{
+        visibility: visible;
+    }
+}
+
+
+#ani{
+    
+    animation-name: computerani ;
+    animation:computerani 4s  forwards  ;
+
+}
+@keyframes computerani{
+    0%{
+        position: absolute;
+        top: 21vh;
+        left: 75vw;
+    }
+    100%{
+        position: absolute;
+        top: 21vh;
+        left: 50vw;
+    }
+    
+}
+*/
+/*@keyframes computerani {
+    from { margin-top: 0%; }
+    to { margin-top: calc(100% - var(--h, 150px)); }
+  }
+  */
+  
+  
